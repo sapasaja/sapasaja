@@ -1,6 +1,6 @@
-sudo adduser akuhnet --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
-echo "akuhnet:123" | sudo chpasswd
-sudo usermod -aG sudo,adm akuhnet
+sudo adduser hiro --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+echo "hiro" | sudo chpasswd
+sudo usermod -aG sudo,adm hiro
 clear
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://bit.ly/GCngrok > /dev/null 2>&1
@@ -35,7 +35,7 @@ sudo service xrdp start
 clear
 echo "=======================100%"
 echo "===================================="
-echo "Username : akuhnet"
+echo "Username : hiro"
 echo "Password : 123"
 echo "right click to open menu"
 echo RDP Address:
