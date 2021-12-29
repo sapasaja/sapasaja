@@ -1,14 +1,12 @@
 apt-get update
 echo "Download windows files"
-wget -O w10x64.img https://bit.ly/akuhnetW10x64
+wget -O w10x64.img https://bit.ly/3FF7fGi
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://bit.ly/GCngrok > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
-echo "======================="
 echo choose ngrok region
-echo "======================="
 echo "us - United States (Ohio)"
 echo "eu - Europe (Frankfurt)"
 echo "ap - Asia/Pacific (Singapore)"
@@ -19,7 +17,6 @@ echo "in - India (Mumbai)"
 read -p "choose ngrok region: " CRP
 ./ngrok tcp --region $CRP 3388 &>/dev/null &
 clear
-echo Downloading File From akuh.net
 apt-get install qemu-system-x86 -y
 echo "Wait"
 echo "Starting Windows"
