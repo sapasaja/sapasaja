@@ -4,7 +4,7 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/nu
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 read -p ">>bismillah>>: " CRP 
 ./ngrok authtoken $CRP 
-nohup ./ngrok tcp 3388 &>/dev/null 2>&1
+nohup ./ngrok tcp 3389 &>/dev/null &
 apt-get install qemu
 echo RDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
