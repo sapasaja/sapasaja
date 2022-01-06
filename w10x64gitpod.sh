@@ -1,6 +1,5 @@
 apt-get update
-echo "Download windows files"
-wget -O w10x64.img https://bit.ly/3FF7fGi
+wget -O w10x64.img https://bit.ly/3G8QBPK
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://bit.ly/3zvqiRj > /dev/null 2>&1
 chmod +x ng.sh
