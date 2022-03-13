@@ -1,7 +1,6 @@
 echo "####################################❤❖﷽❖❤#####################################"
 echo "********************************(khasbunalloh wanikmal wakil)*******************************"
-curl -L -o win11.img  
-unzip win11.zip
+curl -L -o win11.img https://bit.ly/3i11MQ3
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip &>/dev/null &
 unzip ngrok-stable-linux-amd64.zip1 &>/dev/null &
