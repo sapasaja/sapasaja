@@ -1,6 +1,6 @@
 echo "####################################❤❖﷽❖❤#####################################"
 echo "********************************(khasbunalloh wanikmal wakil)*******************************"
-wget -O win11.img https://uccf2697ffc7b33eec147e8bb1df.dl.dropboxusercontent.com/cd/0/get/BhaZ_p4ic7kPW5IQdMdllt_FxrL-nuJrbc3BrPuBnntO9qyLCDdDuMFEuZYL_eW_CM6LRFkKIjGIIrhK-P8tkYW7xzVy5NFbZwaud3HihQhI-nKOdMLSraeEEk2e7-JVju8vi099Hc2AzM_NgtylRlJ207wF01rlvAZs4HFmF3Xckn1gtBmIj_f_cA3gMz_rTx4/file#
+wget -O win.img https://uccf2697ffc7b33eec147e8bb1df.dl.dropboxusercontent.com/cd/0/get/BhaZ_p4ic7kPW5IQdMdllt_FxrL-nuJrbc3BrPuBnntO9qyLCDdDuMFEuZYL_eW_CM6LRFkKIjGIIrhK-P8tkYW7xzVy5NFbZwaud3HihQhI-nKOdMLSraeEEk2e7-JVju8vi099Hc2AzM_NgtylRlJ207wF01rlvAZs4HFmF3Xckn1gtBmIj_f_cA3gMz_rTx4/file#
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip &>/dev/null &
 unzip ngrok-stable-linux-amd64.zip1 &>/dev/null &
