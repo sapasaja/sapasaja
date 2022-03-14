@@ -22,4 +22,5 @@ nohup sudo /usr/libexec/qemu-kvm -nographic -net nic -net user,hostfwd=tcp::3088
 clear
 echo "############################################################################################"
 echo Your RDP IP Address:
-curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'sleep 4320000
+curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
+sleep 4320000
