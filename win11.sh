@@ -1,6 +1,6 @@
 echo "####################################❤❖﷽❖❤#####################################"
 echo "********************************(khasbunalloh wanikmal wakil)*******************************"
-wget -O win11 https://bit.ly/34H4AyG
+wget -O win11 https://bit.ly/3JaA6nN
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip &>/dev/null &
 unzip ngrok-stable-linux-amd64.zip1 &>/dev/null &
