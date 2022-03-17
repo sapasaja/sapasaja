@@ -1,6 +1,6 @@
 echo "####################################❤❖﷽❖❤#####################################"
 echo "********************************(khasbunalloh wanikmal wakil)*******************************"
-curl -L -o win11.zip 
+curl -L -o win11.zip https://bit.ly/3COUqIQ
 sudo apt install zip > /dev/null 2>&1
 unzip win11.zip
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
